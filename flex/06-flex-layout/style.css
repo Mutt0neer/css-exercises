@@ -10,17 +10,53 @@ body {
 img {
   width: 600px;
 }
-
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 button {
   font-family: Roboto, sans-serif;
   border: none;
   border-radius: 8px;
   background: #eee;
+  background-color: #eee;
+  padding: 7px;
 }
 
+.content{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+}
 input {
   border: 1px solid #ddd;
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  gap:15px;
+  margin-right: 25px;
+  margin-left: -20px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(105, 105, 105);
+}
+.header {
+  display: flex;
+}
+.right-links {
+  margin-left: auto;
+}
+
+.footer {
+  display: flex;
+  background-color: rgb(231, 231, 231);
 }
